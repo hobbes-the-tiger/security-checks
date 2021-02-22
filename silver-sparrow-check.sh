@@ -12,7 +12,7 @@ FOUND=0
 if [[ `whoami` != "root" ]]; then
    echo "Run this as sudo just to make sure."
    echo "command: sudo bash silver-sparrow-check.sh"
-   exit
+   echo "Continuing as non-root privs.."
 fi
 
 # Check SHA of file before running. This also helps check for its existence

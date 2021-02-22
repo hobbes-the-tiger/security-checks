@@ -1,7 +1,9 @@
 #!/bin/bash
 # 
 # Checks for Silver Sparrow files v1 and v2
+#
 
+# Make sure the spaces in the directory names aren't missed.
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
@@ -27,13 +29,14 @@ fi
 while read -r file; do
   echo "Checking for $file ..."
   if test -f $file; then
-	printf "$file exists. You might have Silver Sparrow."
+	printf "$file exists.\n"
         FOUND=$FOUND+1
   fi
 done < "silver-sparrow-files.txt"
-  
+ 
+ 
 if [ $FOUND != 0 ]; then
- 	echo "You might have Silver Sparrow. Double check with Apple and a cybersecurity professional."
+ 	printf "\nYou might have Silver Sparrow. Double check with Apple and a cybersecurity professional."
 else
-	echo "Looks like you're in the clear for now. No known Silver Sparrow files found."
+	printf "\nLooks like you're in the clear for now. No known Silver Sparrow files found."
 fi

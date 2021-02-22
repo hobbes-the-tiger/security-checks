@@ -1,0 +1,16 @@
+/tmp/verx 
+/tmp/agent 
+~/Library/Application\ Support/agent_updater
+~/Library/Application\ Support/verx_updater
+/tmp/agent.sh
+/tmp/version.json
+/tmp/version.plist
+~/Library/._insu
+~/Library/Launchagents/agent.plist 
+~/Library/Launchagents/init_agent.plist 
+~/Library/Launchagents/verx.plist 
+~/Library/Launchagents/init_verx.plist 
+~/Library/Application\ Support/agent_updater/agent.sh
+~/Library/Application\ Support/verx_updater/verx.sh
+~/Library/Launchagents/agent.plist 
+~/Library/Launchagents/init_agent.plist 

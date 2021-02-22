@@ -4,7 +4,7 @@ Mainly for my own practice and use, I write scripts to keep my Bash a bit less r
 
 ## Silver Sparrow Check
 
-WARNING: This hasn't been tested except on my local Mac. Feel free to submit or fix any bugs. This does not fix or remove anything, but checks for the existences of the files listed per here: 
+Feel free to submit or fix any bugs. This does not fix or remove anything, but checks for the existences of the files listed per here: 
 https://redcanary.com/blog/clipping-silver-sparrows-wings/
 
 Files:
